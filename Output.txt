@@ -1,0 +1,82 @@
+[RemoteTestNG] detected TestNG version 7.4.0
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 22546
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 28, 2021 4:33:06 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+Total Row Count is: 25
+Physical Number Of Rows: 26
+Last row number is: 25
+First row number is: 0
+Sheet Name is: KeywordFramework
+Top Row is: 3
+
+
+ New Testcase -> 1. Verify Marathi community website -> Started
+GOTOURL-> -> -> url
+
+SLEEP-> -> -> 
+
+CLICK-> ClickLetsBeginBtn-> xpath-> Clicked on "Let's Begin" button
+
+SETTEXT-> EnterEmail-> name-> test@gmail.com
+
+SETTEXT-> EnterPassword-> name-> AAbb0000@@@@@
+
+DROPDOWN-> DDProfile-> xpath-> 
+
+DROPDOWN-> DDSelectSelf-> xpath-> 
+
+RADIOBTN-> SelectGender-> xpath-> 
+
+CLICK-> ClickNextBtn-> xpath-> Clicked on "Next" button
+
+VERIFY-> -> -> VerifyMarathiCommunity
+
+Marathi Matrimony & Matrimonial Service by MarathiShaadi.com
+Marathi language is selected by default forVerifyMarathiCommunitycommunity website
+SLEEP-> -> -> 
+
+
+ New Testcase -> 2. Verify Gujarati community website -> Started
+GOTOURL-> -> -> url2
+
+REFRESH-> -> -> 
+
+CLICK-> ClickLetsBeginBtn-> xpath-> Clicked on "Let's Begin" button
+
+SETTEXT-> EnterEmail-> name-> test@gmail.com
+
+SETTEXT-> EnterPassword-> name-> AAbb0000@@@@@
+
+DROPDOWN-> DDProfile-> xpath-> 
+
+DROPDOWN-> DDSelectSelf-> xpath-> 
+
+RADIOBTN-> SelectGender-> xpath-> 
+
+CLICK-> ClickNextBtn-> xpath-> Clicked on "Next" button
+
+VERIFY-> -> -> VerifyGujaratiCommunity
+
+Gujarati Matrimony & Matrimonial Service by GujaratiShaadi.com
+Gujarati language is selected by default forVerifyGujaratiCommunitycommunity website
+SLEEP-> -> -> 
+
+CLOSE-> -> -> 
+
+PASSED: TestCase
+
+===============================================
+    Default test
+    Tests run: 1, Failures: 0, Skips: 0
+===============================================
+
+
+===============================================
+Default suite
+Total tests run: 1, Passes: 1, Failures: 0, Skips: 0
+===============================================
+
