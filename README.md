@@ -1,6 +1,13 @@
 # Automation_Assignemt:
  It is an Keyword Driven automation assignment based on shaadi.com community websites [marathishaadi.com, gujaratishaadi.com].
 
+# This project is created using :
+1. MS excel 
+2. Selenium Webdriver
+3. TestNG
+4. Apache POI
+5. Eclipse IDE
+
 # Please import below jar/frameworks in eclipse IDE:
 1. Seleniumn Jar Files - selenium-java-3.141.59
 2. Apache POI - poi-bin-5.1.0
